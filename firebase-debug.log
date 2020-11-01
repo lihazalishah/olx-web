@@ -1,0 +1,287 @@
+[debug] [2020-11-01T08:31:09.377Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T08:31:09.392Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-01T08:31:09.395Z] CLI Version:   8.14.1
+[debug] [2020-11-01T08:31:09.396Z] Platform:      win32
+[debug] [2020-11-01T08:31:09.396Z] Node Version:  v14.15.0
+[debug] [2020-11-01T08:31:09.534Z] Time:          Sun Nov 01 2020 13:31:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-11-01T08:31:09.535Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T08:31:09.536Z] 
+[debug] [2020-11-01T08:31:09.625Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T08:31:09.629Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using olx-web-site. 
+[debug] [2020-11-01T08:31:14.820Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/olx-web-site  
+ 
+[debug] [2020-11-01T08:31:15.969Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 01 Nov 2020 08:31:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of n/404.html 
+[debug] [2020-11-01T08:31:33.519Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-11-01T08:31:40.293Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1411","date":"Sun, 01 Nov 2020 08:31:38 GMT","expires":"Sun, 01 Nov 2020 09:21:38 GMT","last-modified":"Mon, 26 Oct 2020 20:17:36 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"0","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] i  Skipping write of n/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[debug] [2020-11-01T08:31:57.040Z] Error: EPERM: operation not permitted, open 'C:\firebase.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Config.writeProjectFile (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:156:8)
+    at C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\init.js:140:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-11-01T09:43:29.865Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:43:29.908Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-01T09:43:29.910Z] CLI Version:   8.14.1
+[debug] [2020-11-01T09:43:29.910Z] Platform:      win32
+[debug] [2020-11-01T09:43:29.911Z] Node Version:  v14.15.0
+[debug] [2020-11-01T09:43:30.042Z] Time:          Sun Nov 01 2020 14:43:29 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-11-01T09:43:30.043Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:43:30.043Z] 
+[debug] [2020-11-01T09:43:30.165Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T09:43:30.168Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using olx-web-site. 
+[debug] [2020-11-01T09:43:37.190Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-11-01T09:43:37.191Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-11-01T09:43:45.036Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 01 Nov 2020 09:43:42 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-01T09:43:45.087Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/olx-web-site  
+ 
+[debug] [2020-11-01T09:43:50.153Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 01 Nov 2020 09:43:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-11-01T09:44:02.902Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-11-01T09:44:08.792Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1411","date":"Sun, 01 Nov 2020 09:44:07 GMT","expires":"Sun, 01 Nov 2020 10:34:07 GMT","cache-control":"public, max-age=3000","last-modified":"Mon, 26 Oct 2020 20:17:36 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[debug] [2020-11-01T09:44:26.436Z] Error: EPERM: operation not permitted, open 'C:\firebase.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Config.writeProjectFile (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:156:8)
+    at C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\init.js:140:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-11-01T09:45:21.402Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:45:21.406Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-01T09:45:21.407Z] CLI Version:   8.14.1
+[debug] [2020-11-01T09:45:21.407Z] Platform:      win32
+[debug] [2020-11-01T09:45:21.407Z] Node Version:  v14.15.0
+[debug] [2020-11-01T09:45:21.410Z] Time:          Sun Nov 01 2020 14:45:21 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-11-01T09:45:21.410Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:45:21.411Z] 
+[debug] [2020-11-01T09:45:21.431Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T09:45:21.432Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using olx-web-site. 
+[debug] [2020-11-01T09:45:26.445Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/olx-web-site  
+ 
+[debug] [2020-11-01T09:45:33.494Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 01 Nov 2020 09:45:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-11-01T09:45:41.702Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-11-01T09:45:49.765Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1411","date":"Sun, 01 Nov 2020 09:44:07 GMT","expires":"Sun, 01 Nov 2020 10:34:07 GMT","last-modified":"Mon, 26 Oct 2020 20:17:36 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"99","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[debug] [2020-11-01T09:45:57.157Z] Error: EPERM: operation not permitted, open 'C:\firebase.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Config.writeProjectFile (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:156:8)
+    at C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\init.js:140:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-11-01T09:46:09.780Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:46:09.784Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-01T09:46:09.785Z] CLI Version:   8.14.1
+[debug] [2020-11-01T09:46:09.785Z] Platform:      win32
+[debug] [2020-11-01T09:46:09.785Z] Node Version:  v14.15.0
+[debug] [2020-11-01T09:46:09.787Z] Time:          Sun Nov 01 2020 14:46:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-11-01T09:46:09.787Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:46:09.788Z] 
+[debug] [2020-11-01T09:46:09.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T09:46:09.802Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using olx-web-site. 
+[debug] [2020-11-01T09:46:14.212Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/olx-web-site  
+ 
+[debug] [2020-11-01T09:47:14.789Z] Server Error. ESOCKETTIMEDOUT
+[debug] [2020-11-01T09:47:15.716Z] FirebaseError: Server Error. ESOCKETTIMEDOUT
+    at Request._callback (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:486:12)
+    at ClientRequest.<anonymous> (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:819:16)
+    at Object.onceWrapper (events.js:421:28)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:486:12)
+    at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+    at Object.onceWrapper (events.js:421:28)
+    at TLSSocket.emit (events.js:327:22)
+    at TLSSocket.EventEmitter.emit (domain.js:486:12)
+    at TLSSocket.Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[error] 
+[error] Error: Failed to get Firebase project olx-web-site. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-11-01T09:47:33.688Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:47:33.693Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-01T09:47:33.694Z] CLI Version:   8.14.1
+[debug] [2020-11-01T09:47:33.694Z] Platform:      win32
+[debug] [2020-11-01T09:47:33.694Z] Node Version:  v14.15.0
+[debug] [2020-11-01T09:47:33.696Z] Time:          Sun Nov 01 2020 14:47:33 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-11-01T09:47:33.697Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T09:47:33.697Z] 
+[debug] [2020-11-01T09:47:33.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T09:47:33.718Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using olx-web-site. 
+[debug] [2020-11-01T09:47:38.695Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/olx-web-site  
+ 
+[debug] [2020-11-01T09:47:39.657Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 01 Nov 2020 09:47:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-11-01T09:47:51.310Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-11-01T09:48:01.214Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1411","date":"Sun, 01 Nov 2020 09:44:07 GMT","expires":"Sun, 01 Nov 2020 10:34:07 GMT","last-modified":"Mon, 26 Oct 2020 20:17:36 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"233","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[debug] [2020-11-01T09:48:03.205Z] Error: EPERM: operation not permitted, open 'C:\firebase.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Config.writeProjectFile (C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:156:8)
+    at C:\Users\lihaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\init.js:140:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
